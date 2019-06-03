@@ -9,6 +9,7 @@ import com.example.parcial1_00060917.R
 import com.example.parcial1_00060917.database.dtos.PartidoDTO
 import kotlinx.android.synthetic.main.partido_list_item.view.*
 
+
 class PartidoAdapter internal constructor(context: Context, val clickListener: (PartidoDTO) -> Unit) : RecyclerView.Adapter<PartidoAdapter.ViewHolder>() {
     private var partidos: ArrayList<PartidoDTO> = ArrayList()
 
